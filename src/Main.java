@@ -70,7 +70,7 @@ public class Main {
 //            System.out.print(invoice); // print the invoice
             // save the invoice in a file
             pricingEngine.saveInvoice(invoice);
-            System.out.println("\nThank you for using this app !!");
+            System.out.println("\nThank you for using our app !!");
         }
         catch (ParseException e){
             System.out.println(e);
